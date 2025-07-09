@@ -2,6 +2,7 @@ group 'com.barkibu.add_to_wallet'
 version '1.0-SNAPSHOT'
 
 buildscript {
+    namespace 'com.zurich.add_to_wallet'
     ext.kotlin_version = '1.8.21'
     repositories {
         google()
