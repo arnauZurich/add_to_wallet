@@ -2,7 +2,6 @@ group 'com.barkibu.add_to_wallet'
 version '1.0-SNAPSHOT'
 
 buildscript {
-    namespace 'com.zurich.add_to_wallet'
     ext.kotlin_version = '1.8.21'
     repositories {
         google()
@@ -26,6 +25,7 @@ apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 
 android {
+    namespace 'com.zurich.add_to_wallet'
     compileSdk 30
 
     sourceSets {
