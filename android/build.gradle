@@ -25,7 +25,7 @@ apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 
 android {
-    namespace 'com.zurich.add_to_wallet'
+    namespace 'com.barkibu.add_to_wallet'
     compileSdk 30
 
     sourceSets {
