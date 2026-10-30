@@ -96,6 +96,11 @@ class PKAddPassButtonNativeView: NSObject, FlutterPlatformView {
     }
 }
 
+#if SWIFT_PACKAGE
+@objc(AddToWalletPlugin)
+#else
+@objc(SwiftAddToWalletPlugin)
+#endif
 public class SwiftAddToWalletPlugin: NSObject, FlutterPlugin {
   public static func register(with registrar: FlutterPluginRegistrar) {
     let channel = FlutterMethodChannel(name: "add_to_wallet", binaryMessenger: registrar.messenger())

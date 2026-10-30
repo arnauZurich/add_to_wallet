@@ -13,9 +13,9 @@ Flutter plugin exposing native PKAddPassButton to interact with the Apple Wallet
   s.license          = { :file => '../LICENSE' }
   s.author           = { 'Barkibu' => 'leo@barkibu.com' }
   s.source           = { :path => '.' }
-  s.source_files = 'Classes/**/*'
+  s.source_files = 'add_to_wallet/Sources/add_to_wallet/**/*'
   s.dependency 'Flutter'
-  s.platform = :ios, '8.0'
+  s.platform = :ios, '13.0'
 
   # Flutter.framework does not contain a i386 slice.
   s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES', 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'i386' }
